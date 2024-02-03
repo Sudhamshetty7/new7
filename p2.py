@@ -1,0 +1,11 @@
+import os
+print(os.getcwd())
+os.makedirs("pythondir", exist_ok=True)
+print(os.listdir("/home/ubuntu/"))
+os.chdir("pythondir")
+print(os.getcwd())
+print(os.listdir("/home/ubuntu/pythondir"))
+print(os.path.isfile("1.txt"))
+print(os.path.exists("pythondir"))
+print(os.path.basename("/home/ubuntu/pythondir"))
+print(os.path.join("/home/ubuntu","sudham"))
